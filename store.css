@@ -8,3 +8,8 @@ body {
 .call-in {
   padding: 1px;
 }
+
+.food-list {
+  list-style: none;
+  padding-right: 3rem;
+}
