@@ -1,5 +1,6 @@
 body {
   background-color: rgba(211, 211, 211, 0.719);
+  max-width: auto;
 }
 .going-back {
   text-align: center;
@@ -12,4 +13,10 @@ body {
 .food-list {
   list-style: none;
   padding-right: 3rem;
+}
+
+#home-page {
+  background-image: url("dunns.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
