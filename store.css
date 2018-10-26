@@ -20,3 +20,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#menu {
+  background-color: rgb(226, 219, 211);
+}
+#beer-page {
+  background-color: rgb(226, 219, 211);
+}
+#hunting-and-fishing {
+  background-color: rgb(226, 219, 211);
+}

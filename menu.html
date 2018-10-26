@@ -13,12 +13,10 @@
     <link rel="stylesheet" href="bootstrap.css">
 </head>
 
-<body>
-    <div class="col-sm-12 col-lg-12 ">
+<body id="menu">
+    <div class="col-sm-12 col-lg-12">
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-            <a class="navbar-brand" href="#">
-                <h3 class="text-white font-weight-bold">Dunn's Country Store</h3>
-            </a>
+            <h3 class="text-white font-weight-bold">Dunn's Country Store</h3>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,11 +24,16 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link pr-5 pl-3" href="index.html">
-                        <h3><i class="fas fa-bars"> Home</i></h3>
+                        <h3><i class="fas fa-home"> Home</i></h3>
                     </a>
                 </div>
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link pr-5 pl-3 " href="beer.html">
+                    <a class="nav-item active nav-link pr-5 pl-3" href="menu.html">
+                        <h2><i class="fas fa-utensils"> Menu</i></h2>
+                    </a>
+                </div>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link pr-5 pl-3" href="beer.html">
                         <h3><i class="fas fa-beer"> Beer and Tobacco</i></h3>
                     </a>
                 </div>
@@ -39,11 +42,33 @@
                         <h3><i class="fas fa-fish"> Hunting & Fishing</i></h3>
                     </a>
                 </div>
+
             </div>
         </nav>
+    </div>
+    <div class="col-sm-12 col-lg-10">
+
+        <h1 class="text-dark font-weight-bold text-center pt-3 pb-4" style="font-family: Coda Caption">
+            Breakfast
+        </h1>
+        <hr>
+
+        <h1 class="text-dark font-weight-bold text-center pt-3 pb-4" style="font-family: Coda Caption">
+            Omelets
+        </h1>
+        <div class="card text-center mb-2">
+            <div class="card-body">
+                <h4 class="text-dark font-weight-bold">Western Omelet</h4>
+                <p class="text-dark"></p>
+            </div>
+        </div>
+
+
+
         <h1 class="text-dark font-weight-bold text-center pt-3 pb-4" style="font-family: Coda Caption">
             Hamburgers
         </h1>
+        <hr>
         <div class="card text-center mb-2">
             <div class="card-body">
                 <h4 class="text-dark font-weight-bold">
@@ -116,6 +141,7 @@
         <h1 class="text-dark font-weight-bold text-center pt-3 pb-4" style="font-family: Coda Caption">
             Specialty Hamburger
         </h1>
+        <hr>
         <div class="card text-center mb-2">
             <div class="card-body">
                 <h4 class="text-dark font-weight-bold">
@@ -184,6 +210,7 @@
         <h1 class="text-dark font-weight-bold text-center pt-3 pb-4" style="font-family: Coda Caption">
             Phillies
         </h1>
+        <hr>
         <div class="card text-center mb-2">
             <div class="card-body">
                 <h4 class="text-dark font-weight-bold">
@@ -215,6 +242,7 @@
         <h1 class="text-dark font-weight-bold text-center pt-3 pb-4" style="font-family: Coda Caption">
             BBQ
         </h1>
+        <hr>
         <div class="card text-center mb-2">
             <div class="card-body">
                 <h4 class="text-dark font-weight-bold">
@@ -303,6 +331,7 @@
         <h1 class="text-dark font-weight-bold text-center pt-3 pb-4" style="font-family: Coda Caption">
             Chicken
         </h1>
+        <hr>
         <div class="card text-center mb-2">
             <div class="card-body">
                 <h4 class="text-dark font-weight-bold">
@@ -313,10 +342,25 @@
                     piece.
                     Comes with one side of your choice.
                 </p>
+                <h4 class="text-dark font-weight-bold">
+                    2 piece tender
+                </h4>
                 <p class="text-dark">
                     <span class="font-weight-bold">Price:</span>
-                    2 piece: $5.99
-                    3 piece $8.49
+                    $5.99
+                </p>
+                <h4 class="text-dark font-weight-bold">
+                    3 piece tender
+                </h4>
+                <p class="text-dark">
+                    <span class="font-weight-bold">Price:</span>
+                    $8.49
+                </p>
+                <h4 class="text-dark font-weight-bold">
+                    Individual Pieces
+                </h4>
+                <p class="text-dark">
+                    $2.49
                 </p>
             </div>
         </div>
@@ -338,6 +382,7 @@
         <h1 class="text-dark font-weight-bold text-center pt-3 pb-4" style="font-family: Coda Caption">
             Poboys
         </h1>
+        <hr>
         <div class="card text-center mb-2">
             <div class="card-body">
                 <h4 class="text-dark font-weight-bold">
@@ -422,6 +467,7 @@
         <h1 class="text-dark font-weight-bold text-center pt-3 pb-4" style="font-family: Coda Caption">
             Steak
         </h1>
+        <hr>
         <div class="card text-center mb-2">
             <div class="card-body">
                 <h4 class="text-dark font-weight-bold">
@@ -440,7 +486,7 @@
                 </h4>
                 <p class="text-dark">
                     <b>*ONLY ON FRIDAY AND SATURDAY NIGHTS*</b> We proudly serve Ribeyes and Sirloins to our customers.
-                    Cooked the way you like them, thanks for our great cook, Sam Dunn! Comes with a baked potatoe and
+                    Cooked the way you like them. Comes with a baked potatoe and
                     Texas Toast. Can get a trip to our
                     fully stocked salad bar for $2.49.
                 </p>
@@ -469,6 +515,12 @@
                     <span class="font-weight-bold">Price:</span>
                     $6.99
                 </p>
+                <h4 class="text-dark font-weight-bold">
+                    Individual Pieces
+                </h4>
+                <p class="text-dark">
+                    $2.49
+                </p>
             </div>
         </div>
         <div class="card text-center mb-2">
@@ -484,6 +536,12 @@
                 <p class="text-dark">
                     <span class="font-weight-bold">Price:</span>
                     $10.99
+                </p>
+                <h4 class="text-dark font-weight-bold">
+                    Individual Pieces
+                </h4>
+                <p class="text-dark">
+                    $2.49
                 </p>
             </div>
         </div>
@@ -501,6 +559,12 @@
                     <span class="font-weight-bold">Price:</span>
                     $14.99
                 </p>
+                <h4 class="text-dark font-weight-bold">
+                    Individual Pieces
+                </h4>
+                <p class="text-dark">
+                    $2.49
+                </p>
             </div>
         </div>
 
@@ -515,6 +579,8 @@
                 <p class="text-dark">
                     All our sides are fried and are delicious.
                     <ul class="food-list">
+                        <span class="font-weight-bold">Price:</span>
+                        $1.79
                         <li class="food-item">
                             French Fries
                         </li>
@@ -536,13 +602,13 @@
                     </ul>
                 </p>
                 <p class="text-dark">
-                    <span class="font-weight-bold">Price:</span>
-                    $1.79
+
                     <p class="text-dark font-weight-bold">Onion Rings: $2.19</p>
                     <p class="text-dark font-weight-bold">Potatoe Salad: $2.19</p>
                 </p>
             </div>
         </div>
+    </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
